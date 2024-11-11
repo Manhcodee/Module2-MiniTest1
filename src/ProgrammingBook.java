@@ -2,6 +2,9 @@ public class ProgrammingBook extends Book{
     private String language;
     private String framework;
 
+    public ProgrammingBook() {
+
+    }
 
     public ProgrammingBook(String bookCode, String name, double price, String author, String language, String framework) {
         super(bookCode, name, price, author);
