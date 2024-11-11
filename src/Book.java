@@ -1,8 +1,8 @@
 public class Book {
-    public String bookCode;
-    public String name;
-    public double price;
-    public String author;
+    private String bookCode;
+    private String name;
+    private double price;
+    private String author;
 
     public Book() {
 

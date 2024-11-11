@@ -1,6 +1,6 @@
 public class ProgrammingBook extends Book{
-    public String language;
-    public String framework;
+    private String language;
+    private String framework;
 
 
     public ProgrammingBook(String bookCode, String name, double price, String author, String language, String framework) {
